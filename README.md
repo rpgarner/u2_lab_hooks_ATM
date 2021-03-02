@@ -1,44 +1,35 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React ATM application
+# React Hooks ATM
 
---------
+![Bird](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.aestheticatms.com%2Fuploads%2F1%2F2%2F0%2F1%2F120178223%2Fmoney-bird_orig.gif&f=1&nofb=1)
 
-Let's practice modifying an existing codebase. This repository contains the code for existing ATM application using React. In it, you can currently deposit money into a checking account.
+## Overview
+In this lab, we'll practice modifying an existing codebase. This repository contains the code for existing ATM application using React. In it you can currently deposit money into a checking account.
 
-You'll be adding a few features to this:
-- The ability to withdraw money
-- Having a savings account as well as a checking account
+## Objectives
+- Add the ability to withdraw money
+- Add the ability to have a savings *and* checking account
 
-In the end, your solution will look like this:
+## What You'll Be Building
+![ATM](https://cloud.githubusercontent.com/assets/4304660/24376818/18c39a82-12f2-11e7-81e7-af618c22b3ed.png)
 
-<img width="992" alt="atm" src="https://cloud.githubusercontent.com/assets/4304660/24376818/18c39a82-12f2-11e7-81e7-af618c22b3ed.png">
+## Getting Started
+- `fork` and `clone` to your machine
+- `cd` into the directory
+- `npm i` to install our dependencies
+- `npm start` to spin up the app
+- Take a look at the code in the `/src` directory - that's what you need to change!
 
---------
+## Your Task
+Currently, you can see that there is a Checking account where a user can deposit money. Try it out - it already works!
 
-## Setting up:
-
-- Fork and then clone this repo
-
-- Run `npm install` (or `npm i` for short!)
-
-- To launch the app, run `npm start`.
-
-- The code that's running is in the `/src` directory - that's what you need to change!
-
-You can do the below tasks in any order you'd like.
-
-
-## Task:
-
-Currently, you can see that there is a Checking account where a user can deposit money. Try it out - it works!
+We need to:
 - Create a "Withdraw" button next to the "Deposit" button.
-  - You should not be able to withdraw more than the current balance.
+  - You ***should not*** be able to withdraw more than the current balance.
 - Create a Savings account - another component of the same class.
   - It will have the same deposit (and eventual withdraw) functionality.
-- You cannot type negative numbers in to either withdraw or deposit.
+- You ***should not be able*** to type negative numbers into either withdraw or deposit.
 
--------
-
-### Hints:
+### Hints
 <details>
 <summary>Stuck on making a Savings account? Here's a hint:</summary>
 The <code>name</code> prop being passed into <code>Account</code> is "Checking" - perhaps you can just call the component again for "Savings".   
