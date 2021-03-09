@@ -17,7 +17,6 @@ In this lab, we'll practice modifying an existing codebase. This repository cont
 - `cd` into the directory
 - `npm i` to install our dependencies
 - `npm start` to spin up the app
-- Take a look at the code in the `/src` directory - that's what you need to change!
 
 ## Your Task
 Currently, you can see that there is a Checking account where a user can deposit money. Try it out - it already works!

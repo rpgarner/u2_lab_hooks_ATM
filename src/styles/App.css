@@ -14,7 +14,6 @@ body {
 
 .title {
   color: #F52F4F;
-  font-family: 'Oleo Script', cursive;
   font-size: 50px;
 }
 
@@ -41,4 +40,36 @@ body {
 .zero {
   background-color: #F52F4F;
   color: #FFFFFF;
+}
+
+.input {
+  height: 3vmin;
+  width: 10vmin;
+  font-family: 'Ruluko', sans-serif;
+  text-align: center;
+  font-size: 1.75vmin;
+}
+
+.btn {
+  background-color:  rgb(234, 234, 234);
+    
+  border: solid;
+  border-color: rgb(62, 62, 62);
+  border-width: .25vmin;
+  border-radius: .5vmin;
+
+  font-family: 'Ruluko', sans-serif;
+  text-align: center;
+
+  color: rgb(62, 62, 62);
+  font-size: 1.5vmin;
+  font-weight: bold;
+
+  height: 3vmin;
+  width: 8vmin;
+}
+
+.btn:hover {
+  background: rgb(211, 211, 211);
+  cursor: pointer;
 }
