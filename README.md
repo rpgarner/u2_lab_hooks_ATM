@@ -1,6 +1,6 @@
 # React Hooks ATM
 
-![Bird](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.aestheticatms.com%2Fuploads%2F1%2F2%2F0%2F1%2F120178223%2Fmoney-bird_orig.gif&f=1&nofb=1)
+![ATM](https://media4.giphy.com/media/9rwJNLBu8FMfixoIxL/giphy.gif)
 
 ## Overview
 In this lab, we'll practice modifying an existing codebase. This repository contains the code for an existing ATM application using React. In it, you can currently deposit money into a checking account.
