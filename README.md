@@ -10,7 +10,7 @@ In this lab, we'll practice modifying an existing codebase. This repository cont
 - Add the ability to have a savings *and* checking account
 
 ## What You'll Be Building
-![ATM](https://cloud.githubusercontent.com/assets/4304660/24376818/18c39a82-12f2-11e7-81e7-af618c22b3ed.png)
+![ATM](https://i.imgur.com/5qtwSzM.png)
 
 ## Getting Started
 - `fork` and `clone` to your machine
@@ -26,12 +26,12 @@ We need to:
   - You ***should not*** be able to withdraw more than the current balance.
 - Create a Savings account - another component of the same class.
   - It will have the same deposit (and eventual withdraw) functionality.
-- You ***should not be able*** to type negative numbers into either withdraw or deposit.
+- You ***should not be able*** to use negative numbers to withdraw or deposit.
 
 ### Hints
 <details>
 <summary>Stuck on making a Savings account? Here's a hint:</summary>
-The <code>name</code> prop being passed into <code>Account</code> is "Checking" - perhaps you can just call the component again for "Savings".   
+The <code>name</code> prop being passed into <code>Account</code> is "Checking" - perhaps you can just call the component again for "Savings"?   
 </details>
 
 <details>

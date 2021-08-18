@@ -67,6 +67,9 @@ body {
 
   height: 3vmin;
   width: 8vmin;
+
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .btn:hover {
