@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import '../styles/App.css'
 
-const Account = (props) => {
+const SavingsAccount = (props) => {
   let [amount, setAmount] = useState(0)
   let [balance, setBalance] = useState(0)
 
   const handleClick = (e) => {
     e.preventDefault()
-    if ((isNaN(amount)) ||  (amount > balance) || (amount < 0)) {
+    if ((isNaN(amount)) || (amount < 0)) {
       console.log('Not a number')
     } else {
       setBalance(balance + Number(amount))
@@ -17,7 +17,7 @@ const Account = (props) => {
 
   const anotherClick = (e) => {
     e.preventDefault()
-    if ((isNaN(amount)) || (amount > balance) || (amount < 0)){
+    if ((isNaN(amount)) || (amount > balance) || (amount < 0)) {
       console.log('You dont have enough money')
     } else {
       setBalance(balance - Number(amount))
@@ -62,4 +62,4 @@ const Account = (props) => {
   )
 }
 
-export default Account
+export default SavingsAccount
